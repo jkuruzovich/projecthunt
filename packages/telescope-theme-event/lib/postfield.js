@@ -19,7 +19,7 @@ var url =  {
     autoform: {
       editable: true,
       type: "bootstrap-url",
-      omit: true
+      omit: false
     }
   }
 }
@@ -37,11 +37,37 @@ var body = {
   }
 }
 
+var organizationurl =  {
+  propertyName: 'organizationurl',
+  propertySchema: {
+    type: String,
+    label: "Image Url",
+    optional: true,
+    autoform: {
+      editable: true,
+      type: "bootstrap-url",
+    }
+  }
+}
 
+var organization = {
+  propertyName: 'organization',
+  propertySchema: {
+    type: String,
+    label: "Organization",
+    optional: true,
+    autoform: {
+      editable: true,
+    }
+  }
+}
 
 
 addToPostSchema.push(thumbnailProperty);
 addToPostSchema.push(url);
 addToPostSchema.push(body);
+addToPostSchema.push(organization);
+addToPostSchema.push(organizationurl);
+
 
 

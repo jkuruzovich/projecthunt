@@ -1,4 +1,4 @@
-/*App.info({
+App.info({
   name: 'ProjectHunt',
   description: 'An Android app built with Meteor',
   version: '0.0.1'
@@ -21,4 +21,4 @@ App.launchScreens({
   'iphone_2x': 'resources/splash/Default@2x~iphone.png',
   'iphone5': 'resources/splash/Default-568h@2x~iphone.png'
 });
-*/
+
