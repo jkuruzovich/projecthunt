@@ -26,7 +26,7 @@ meteorhacks:fast-render
 meteorhacks:subs-manager
 meteorhacks:npm
 
-aldeed:autoform@5.1.2
+aldeed:autoform
 aldeed:collection2
 aldeed:simple-schema@1.3.2
 aldeed:template-extension
@@ -76,7 +76,6 @@ telescope-api
 telescope-rss
 telescope-search
 telescope-tags
-telescope-theme-hubble
 telescope-email
 telescope-embedly
 telescope-newsletter
@@ -97,3 +96,10 @@ telescope-messages
 telescope-pages
 
 # Custom Packages
+telescope-static-pages
+telescope-theme-event
+cfs:autoform
+cfs:standard-packages
+cfs:filesystem
+cfs:gridfs
+meteorhacks:kadira
