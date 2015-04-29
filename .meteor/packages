@@ -96,7 +96,6 @@ telescope-messages
 telescope-pages
 
 # Custom Packages
-telescope-static-pages
 telescope-theme-event
 cfs:autoform
 cfs:standard-packages
