@@ -41,7 +41,7 @@ var organizationurl =  {
   propertyName: 'organizationurl',
   propertySchema: {
     type: String,
-    label: "Image Url",
+    label: "Website",
     optional: true,
     autoform: {
       editable: true,
@@ -56,18 +56,19 @@ var organization = {
     type: String,
     label: "Organization",
     optional: true,
+    placeholder: "Please enter your organization.",
     autoform: {
       editable: true,
     }
   }
 }
 
-
-addToPostSchema.push(thumbnailProperty);
 addToPostSchema.push(url);
-addToPostSchema.push(body);
+addToPostSchema.push(thumbnailProperty);
 addToPostSchema.push(organization);
 addToPostSchema.push(organizationurl);
+addToPostSchema.push(body);
+
 
 
 
