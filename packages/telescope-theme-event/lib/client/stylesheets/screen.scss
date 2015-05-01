@@ -1,8 +1,10 @@
 /*-----OVERRIDE TELESCOPE STYLES -----*/
 .content-wrapper{
-	margin-left:0;
-	margin-right:0;
+	margin-left:auto;
+	margin-right:auto;
 	padding:0px;
+	widows:100%;
+	max-width:none;
 }
 .page-body {
 	padding-left:0px;
@@ -177,6 +179,7 @@ body {
 .container {
   margin-right: auto;
   margin-left: auto;
+  max-width:1200px;
 }
 
 .container:before,
