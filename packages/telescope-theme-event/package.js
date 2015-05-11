@@ -12,6 +12,7 @@ Package.onUse(function (api) {
     'lib/client/stylesheets/screen.scss',
     'lib/client/templates/new_posts_list.html',
     'lib/client/templates/new_post_item.html',
+    'lib/client/templates/new_tagline_banner.html',
     'lib/client/templates/new_nav.html',
     'lib/client/eventtheme.js',
     'lib/postfield.js',

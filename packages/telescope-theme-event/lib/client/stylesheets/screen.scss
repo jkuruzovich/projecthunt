@@ -47,7 +47,7 @@ body {
 	font-size: 3.0 em;
 	text-align:center;
 	font-weight:normal;
-	
+
 }
 .hero {
 	margin-top: 80px;
@@ -109,7 +109,7 @@ body {
 .listings {
 	position: relative;
 	margin-top: 10px;
-	
+
 }
 /*---TEXT ----*/
 .heroText {
@@ -162,13 +162,13 @@ body {
 		font-size: 2em;
 		line-height: 1.5em;
 	}
-	
+
 	.hero {
 		margin-top: 20px;
 		margin-bottom: 20px;
 		margin-left: 30px;
 		margin-right: 30px;
-		
+
 	}
 	.heroText {
 		font-size: 2em;
@@ -186,7 +186,7 @@ body {
 		min-height:150px;
 		padding:50px 40px;
 	}
-	
+
 }
 
 /*------------ BS3 Styles --------- 711 - 1089 */
@@ -611,3 +611,22 @@ $light-text:$blue-grey;
 $lighter-text:$lighter-grey;
 $border-color:$grey;
 $highlight-color:$dark-blue;
+
+.welcometext {
+  position: relative;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+  background-image:url(/img/supermanred.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size:15px;
+  line-height:20px;
+  margin:0px;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
